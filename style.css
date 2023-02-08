@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;1,700&family=Inter:wght@300&display=swap");
+
+body {
+  padding: 0 16px;
+  margin: 0 330px;
+  font-family: "Gentium Book Plus", serif;
+}
+
+body article {
+  display: block;
+  padding-top: 5rem;
+}
+
+body article h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  cursor:default;
+}
+
+body article .navigation-bar {
+  text-align: right;
+}
+
+body article .navigation-bar a {
+  text-decoration-color: rgb(105, 119, 140);
+  color: rgb(105, 119, 140);
+}
+
+body .article-container .section-links .links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+body .article-container .section-links .links a {
+  color: rgb(105, 119, 140);
+}
+
+body .article-container .section-links .links a:visited {
+  color: black;
+}
+
+body .article-container .section-about p {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+
+body > article > section.section-about > section > footer {
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 0 157px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  body {
+    margin: 0 15px;
+  }
+}
+
+.article-container .section-projects a {
+  text-decoration: none;
+  color: black;
+
+}
