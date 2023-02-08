@@ -16,4 +16,4 @@ const date = `<p>Website Hosted at ${window.location.hostname}<br>Local Path: ${
 
 linksSection.insertAdjacentHTML("beforeend", elements.join(" "));
 
-articleContainer.insertAdjacentHTML('afterend', date)
+linksSection.insertAdjacentHTML('afterend', date)

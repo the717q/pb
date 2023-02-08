@@ -70,3 +70,14 @@ body > article > section.section-about > section > footer {
   color: black;
 
 }
+
+
+body article .links-bar a {
+  text-decoration-color: rgb(105, 119, 140);
+  color: rgb(105, 119, 140);
+  margin: 3px;
+}
+
+body article .links-bar a:visited {
+  color: black;
+}
