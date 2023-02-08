@@ -13,3 +13,7 @@ const elements = apiData.map((element) => {
 })
 
 projects.insertAdjacentHTML('beforeend', elements.join(''))
+
+const date = `<p>Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
+
+projects.insertAdjacentHTML('afterend', date)
