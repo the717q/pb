@@ -11,9 +11,10 @@ const elements = links.map((links) => {
 });
 
 console.log(linksSection)
-const date = `<p>Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
+const date = `<h3 style="margin: 0;">Details</h3><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
 
 
 linksSection.insertAdjacentHTML("beforeend", elements.join(" "));
 
 linksSection.insertAdjacentHTML('afterend', date)
+
