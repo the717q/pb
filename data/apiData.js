@@ -14,13 +14,6 @@ export const apiData = [
         "https://github.com/the717q/logFood-Project"
     ],
     [
-        570641458,
-        "my-css-proj",
-        "2022-11-25T17:37:07Z",
-        "master",
-        "https://github.com/the717q/my-css-proj"
-    ],
-    [
         570757551,
         "my-css-proj-2",
         "2022-11-26T03:02:56Z",
@@ -33,13 +26,6 @@ export const apiData = [
         "2022-12-10T08:11:26Z",
         "master",
         "https://github.com/the717q/my-javascript-proj-2"
-    ],
-    [
-        573812566,
-        "my-js-assigments",
-        "2022-12-03T14:10:01Z",
-        "master",
-        "https://github.com/the717q/my-js-assigments"
     ],
     [
         509543923,
