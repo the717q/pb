@@ -35,11 +35,11 @@ body .article-container .section-links .links {
   font-size: 1rem;
 }
 
-body .article-container .section-links .links a {
+a {
   color: rgb(105, 119, 140);
 }
 
-body .article-container .section-links .links a:visited {
+a:visited {
   color: black;
 }
 
