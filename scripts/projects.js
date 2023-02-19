@@ -1,6 +1,9 @@
 import {apiData} from '../data/apiData.js'
 
 const projects = document.querySelector('.section-projects')
+const heading = document.querySelector('.projects')
+
+heading.insertAdjacentHTML('beforeend', ` - ${apiData.length}`)
 
 const elements = apiData.map((element) => {
     return (
