@@ -1,6 +1,7 @@
 import { certificates } from "../data/certificatesData.js";
 
 const certificatesSection = document.querySelector('.section-certificates')
+const detailsSection = document.querySelector('.section-details')
 
 const filterCertificates = function(data, type) {
     return data.filter((certificate) => certificate.type === type)
@@ -27,6 +28,5 @@ certificatesSection.insertAdjacentHTML('beforeend', createElements(brainnestCert
 
 const date = `<h3 style="margin: 0;">Details</h3><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
 
-certificatesSection.insertAdjacentHTML('afterend', date)
+detailsSection.insertAdjacentHTML('beforeend', date)
 
-const data = document.querySelector('.data-filtered')
