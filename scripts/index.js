@@ -2,6 +2,7 @@ import { links } from "../data/links.js";
 
 const linksSection = document.querySelector(".section-links");
 const articleContainer = document.querySelector(".article-container");
+const detailsSection = document.querySelector('.section-details')
 
 const elements = links.map((links) => {
   const keys = Object.keys(links);
@@ -13,4 +14,4 @@ const date = `<h3 style="margin: 0;">Details</h3><p style="margin-top: 0">Websit
 
 linksSection.insertAdjacentHTML("beforeend", elements.join(" "));
 
-linksSection.insertAdjacentHTML('afterend', date)
+detailsSection.insertAdjacentHTML('beforeend', date)

@@ -35,6 +35,10 @@ body .article-container .section-links .links {
   font-size: 1rem;
 }
 
+body > article > section.section-projects  {
+  margin: 50px 50px 100px 50px;
+}
+
 a {
   color: rgb(105, 119, 140);
 }

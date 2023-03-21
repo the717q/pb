@@ -2,6 +2,7 @@ import {apiData} from '../data/apiData.js'
 
 const projects = document.querySelector('.section-projects')
 const heading = document.querySelector('.projects')
+const detailsSection = document.querySelector('.section-details')
 
 heading.insertAdjacentHTML('beforeend', ` - ${apiData.length}`)
 
@@ -19,5 +20,5 @@ projects.insertAdjacentHTML('beforeend', elements.join(''))
 
 const date = `<h3 style="margin: 0;">Details</h3><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
 
-projects.insertAdjacentHTML('afterend', date)
+detailsSection.insertAdjacentHTML('beforeend', date)
 
