@@ -4,8 +4,6 @@ const projects = document.querySelector('.section-projects')
 const heading = document.querySelector('.projects')
 const detailsSection = document.querySelector('.section-details')
 
-heading.insertAdjacentHTML('beforeend', ` - ${apiData.length}`)
-
 const elements = apiData.map((element) => {
     return (
         `<h2 class="repo-name"><a href="${element[4]}" target="_blank">${element[1][0].toUpperCase() + element[1].slice(1)}</a></h2>

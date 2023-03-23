@@ -10,16 +10,15 @@ const figmaAPI = async (endpoint) => {
             'X-Figma-Token': apikey,
         },
     })
-    const response = request.json()
-    return response
+    return request.json()
 }
 
 figmaAPI('me').then((response) => {
     aboutSection.insertAdjacentHTML('beforeend',
-        `<p class="about">${response.handle}</p>
-        <p class="portfolio">${response.email}</p> 
-        <p class="link">${response.id}</p>
-        <hr>`
+        `<p class="about"><b>Handler</b>: ${response.handle}</p>
+        <p class="portfolio"><b>Email</b>: ${response.email}</p> 
+        <p class="link"><b>Figma user ID</b>: ${response.id}</p>
+        `
     )
 }).catch((error) => {
     console.log(error)

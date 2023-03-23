@@ -8,7 +8,7 @@ body {
 
 body article {
   display: block;
-  padding-top: 5rem;
+  padding: 5rem 0rem;
 }
 
 body article h1 {
@@ -19,11 +19,26 @@ body article h1 {
 
 body article .navigation-bar {
   text-align: right;
+  margin: 0.5rem;
 }
 
 body article .navigation-bar a {
   text-decoration-color: rgb(105, 119, 140);
   color: rgb(105, 119, 140);
+}
+
+body article .links-bar {
+  margin: 0.5rem;
+}
+
+body article .links-bar a {
+  text-decoration-color: rgb(105, 119, 140);
+  color: rgb(105, 119, 140);
+  margin: 3px;
+}
+
+body article .links-bar a:visited {
+  color: black;
 }
 
 body .article-container .section-links .links {
@@ -36,7 +51,7 @@ body .article-container .section-links .links {
 }
 
 body > article > section.section-projects  {
-  margin: 50px 50px 100px 50px;
+  margin: 50px;
 }
 
 a {
@@ -75,13 +90,3 @@ body > article > section.section-about > section > footer {
 
 }
 
-
-body article .links-bar a {
-  text-decoration-color: rgb(105, 119, 140);
-  color: rgb(105, 119, 140);
-  margin: 3px;
-}
-
-body article .links-bar a:visited {
-  color: black;
-}
