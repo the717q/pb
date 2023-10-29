@@ -1,4 +1,15 @@
 export const certificates = [{
+    img: '',
+    name: 'Networking Devices and Initial Configuration',
+    type: 'cisco',
+    dateOfCompletion: '16/08/2023'
+},{
+    img:'',
+    name: 'Networking Basics',
+    type: 'cisco',
+    dateOfCompletion: '15/07/2023'
+},
+{
     img: './assets/codecad.jpg',
     name: 'Introduction to IT',
     type: 'codecademy',
@@ -17,7 +28,7 @@ export const certificates = [{
 },{
     img: '',
     name: 'Front-end Development',
-    type: 'EDIT',
+    type: 'EDIT - Disruptive Digital Education',
     dateOfCompletion: '18/05/2022',
 },{
     img: './assets/codecad.jpg',
