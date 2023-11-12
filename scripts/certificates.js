@@ -15,10 +15,10 @@ const brainnestCertificates = filterCertificates(certificates, 'brainnest')
 
 const createElements = function(data) {
     return data.map((certificates) => {
-        return (`<h2>Name: ${certificates.name}</h2>
-                    <p class="paragraph">Type: ${certificates.type[0].toUpperCase() + certificates.type.slice(1)}</p> 
+        return (`<div class="certifica-details"><h2>Name: ${certificates.name}</h2>
+                    <p class="paragraph">Type: <b>${certificates.type[0].toUpperCase() + certificates.type.slice(1)}</b></p> 
                     <p>Date of Completion: ${certificates.dateOfCompletion}</p>
-                <h2>`)
+                <h2></div><hr>`)
     }
 )}
 
@@ -28,6 +28,6 @@ certificatesSection.insertAdjacentHTML('beforeend', createElements(codecademyCer
 certificatesSection.insertAdjacentHTML('beforeend', createElements(EditCertificates).join(''))
 certificatesSection.insertAdjacentHTML('beforeend', createElements(brainnestCertificates).join(''))
 
-const date = `<h2>Details</h2><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
+const date = `<h2>Details</h2><p style="margin-top: 0">Website <b>Hosted</b> at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
 
 detailsSection.insertAdjacentHTML('beforeend', date)
