@@ -6,6 +6,10 @@ body {
   font-family: "Gentium Book Plus", serif;
 }
 
+body .article-container #timer {
+  font-size: 18px;
+}
+
 body article {
   display: block;
   padding: 5rem 0rem;
