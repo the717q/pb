@@ -1,8 +1,9 @@
 {
   "name": "personal-website",
+  "homepage": "https://github.com/the717q/pb",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "my personal website",
+  "main": "index.js",
   "scripts": {},
   "keywords": []
 }

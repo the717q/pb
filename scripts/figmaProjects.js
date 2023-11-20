@@ -13,7 +13,7 @@ function updateTime() {
     const seconds = now.getSeconds();
 
     // Format the string with leading zeroes
-    const clockStr = `${day.toString()}-${month.toString()}-${year.toString()} ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    const clockStr = `Portugal, Lisbon ${day.toString()}-${month.toString()}-${year.toString()} ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 
     timer.innerText = clockStr;
 }
