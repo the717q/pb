@@ -12,7 +12,7 @@ body .article-container #timer {
 
 body article {
   display: block;
-  padding: 5rem 0rem;
+  padding: 2rem 0rem;
 }
 
 body article h1 {
@@ -23,7 +23,20 @@ body article h1 {
 
 body article .navigation-bar {
   text-align: right;
+  margin: 2rem 0.5rem;
+}
+
+body > article > section.links > section.navigation-bar1 {
   margin: 0.5rem;
+}
+
+body > article > section.links > section.links-bar2 {
+  margin: 0.5rem;
+}
+
+body > article > section.links {
+  text-align: right;
+  margin: 2rem 0.2rem;
 }
 
 body article .navigation-bar a {
@@ -54,9 +67,6 @@ body .article-container .section-links .links {
   font-size: 1rem;
 }
 
-body > article > section.section-projects  {
-  margin: 50px;
-}
 
 a {
   color: rgb(105, 119, 140);
