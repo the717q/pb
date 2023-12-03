@@ -8,13 +8,5 @@
     "start": "parcel",
     "build": "parcel build"
   },
-  "keywords": [],
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "parcel": "^2.10.3",
-    "process": "^0.11.10"
-  }
+  "keywords": []
 }
