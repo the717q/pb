@@ -27,11 +27,20 @@ body article .navigation-bar {
 }
 
 body > article > section.links > section.navigation-bar1 {
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
+body > article > section.links > section.navigation-bar1 a { 
+  margin: 0.2rem
+}
+
+body > article > section.links > section.navigation-bar2 a { 
+  margin: 0.2rem
+}
+
+
 body > article > section.links > section.links-bar2 {
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 body > article > section.links {
@@ -41,6 +50,7 @@ body > article > section.links {
 
 body article .navigation-bar a {
   text-decoration-color: rgb(105, 119, 140);
+  margin: 0.2rem;
   color: rgb(105, 119, 140);
 }
 
@@ -103,4 +113,17 @@ body > article > section.section-about > section > footer {
   color: black;
 
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 
