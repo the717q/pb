@@ -134,4 +134,8 @@ body > article > section.section-about > section > footer {
   flex-wrap: wrap;
 }
 
+.sandboxes-container {
+  height: 50vh;
+  color:black;
+}
 
