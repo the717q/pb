@@ -43,6 +43,11 @@ body > article > section.links > section.links-bar2 {
   margin: 1rem;
 }
 
+body > article > section.links > section.links-bar2 a{
+  margin: 0.2rem;
+}
+
+
 body > article > section.links {
   text-align: right;
   margin: 2rem 0.2rem;

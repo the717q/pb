@@ -35,6 +35,7 @@ const brainnestCertificates = filterCertificates(certificates, 'brainnest')
 const createElements = function(data) {
     return data.map((certificates) => {
         return (`<div class="certifica-details"><h2>Name: ${certificates.name}</h2>
+                    <a href="${certificates.link}" target="_blank"><img src=${certificates.img} alt=${certificates.name} style="float: right"></a>
                     <p class="paragraph">Type: <b>${certificates.type[0].toUpperCase() + certificates.type.slice(1)}</b></p> 
                     <p>Date of Completion: ${certificates.dateOfCompletion}</p>
                 <h2></div><hr>`)
