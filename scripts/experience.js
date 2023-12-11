@@ -1,9 +1,8 @@
 import { experiences } from '../data/JobExperiencesData.js'
 
-const certificatesSection = document.querySelector('.section-certificates')
-const detailsSection = document.querySelector('.section-details')
-
 const timer = document.getElementById('timer')
+const detailsSection = document.querySelector('.section-details')
+const certificatesSection = document.querySelector('.section-certificates')
 
 function updateTime() {
     const now = new Date();
@@ -50,7 +49,7 @@ certificatesSection.insertAdjacentHTML('beforeend', createElements(HoteisRealExp
 
 
 
-const date = `<h3 style="margin: 0;">Details</h3><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
+const date = `<h3 style="margin: 0;">Local path and Website Details</h3><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
 
 detailsSection.insertAdjacentHTML('beforeend', date)
 

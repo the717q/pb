@@ -6,25 +6,45 @@ body {
   font-family: "Gentium Book Plus", serif;
 }
 
-body .article-container #timer {
-  font-size: 18px;
+
+body .article-container #timer, body .article-container {
+  display: block;
+  padding: 2rem 0rem;
 }
+
 
 body article {
   display: block;
   padding: 5rem 0rem;
 }
 
-body article h1 {
+body article .h1-header {
   font-size: 3rem;
   margin-bottom: 2rem;
   cursor:default;
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+body > article > section.article-header > div h2{
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+body > article > section.article-header > div h3{
+  font-size: 14px;
 }
 
 body article .navigation-bar {
   text-align: right;
-  margin: 2rem 0.5rem;
-}
+  margin: 4rem 0.2rem;
+ }
 
 body > article > section.links > section.navigation-bar1 {
   margin: 1rem;
@@ -50,7 +70,7 @@ body > article > section.links > section.links-bar2 a{
 
 body > article > section.links {
   text-align: right;
-  margin: 2rem 0.2rem;
+  margin: 4rem 0.2rem;
 }
 
 body article .navigation-bar a {
@@ -114,7 +134,18 @@ body > article > section.section-about > section > footer {
   body {
     margin: 0 15px;
   }
+
+  body > .article-container > .header-details {
+    display: block;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  body > .article-container > .header-details {
+    display: block;
+  }
+}
+
 
 .article-container .section-projects a {
   text-decoration: none;

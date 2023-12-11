@@ -1,9 +1,8 @@
 import {apiData} from '../data/apiData.js'
 
 const projects = document.querySelector('.section-projects')
-const heading = document.querySelector('.projects')
-const detailsSection = document.querySelector('.section-details')
 const timer = document.getElementById('timer')
+const detailsSection = document.querySelector('.section-details')
 
 function updateTime() {
     const now = new Date();
@@ -35,7 +34,7 @@ const elements = apiData.map((element) => {
 
 projects.insertAdjacentHTML('beforeend', elements.join(''))
 
-const date = `<h3 style="margin: 0;">Details</h3><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
+const date = `<h3 style="margin: 0;">Local path and Website Details</h3><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
 
 detailsSection.insertAdjacentHTML('beforeend', date)
 

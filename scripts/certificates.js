@@ -4,6 +4,7 @@ const certificatesSection = document.querySelector('.section-certificates')
 const detailsSection = document.querySelector('.section-details')
 const timer = document.getElementById('timer')
 
+
 function updateTime() {
     const now = new Date();
     const day = now.getUTCDate()
@@ -48,6 +49,6 @@ certificatesSection.insertAdjacentHTML('beforeend', createElements(codecademyCer
 certificatesSection.insertAdjacentHTML('beforeend', createElements(EditCertificates).join(''))
 certificatesSection.insertAdjacentHTML('beforeend', createElements(brainnestCertificates).join(''))
 
-const date = `<h2>Details</h2><p style="margin-top: 0">Website <b>Hosted</b> at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
+const date = `<h2>Local path and Website Details</h2><p style="margin-top: 0">Website <b>Hosted</b> at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
 
 detailsSection.insertAdjacentHTML('beforeend', date)
