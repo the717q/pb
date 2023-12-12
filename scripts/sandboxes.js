@@ -1,9 +1,6 @@
-import { links } from "./data/links.js";
-
+const projects = document.querySelector('.section-projects')
 const timer = document.getElementById('timer')
-const linksSection = document.querySelector(".section-links");
 const detailsSection = document.querySelector('.section-details')
-
 
 function updateTime() {
     const now = new Date();
@@ -24,15 +21,6 @@ updateTime();
 setInterval(updateTime, 1000);
 
 
-const elements = links.map((links) => {
-  const keys = Object.keys(links);
-  return `<div class="links"><p class=${keys[0]}>${links.website}</p>
-    <a href=${links.url} class=${keys[1]} target="_blank"">${links.userName} </a></div>`
-});
+const date = `<h3 style="margin: 0;">Local path and Website Details</h3><p style="margin-top: 0">Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
 
-const date = `<h3>Local path and Website Details</h3><p>Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
-
-linksSection.insertAdjacentHTML("beforeend", elements.join(" "));
-linksSection.insertAdjacentHTML('beforeend', '<hr>')
 detailsSection.insertAdjacentHTML('beforeend', date)
-
