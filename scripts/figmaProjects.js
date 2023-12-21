@@ -1,6 +1,11 @@
+import countdownToNewYear from '../AsideComponents/newYearfunction.js'
 const timer = document.getElementById('timer')
 const linksSection = document.querySelector(".section-links");
 const detailsSection = document.querySelector('.section-details')
+const countDown = document.getElementById('countdown')
+
+countdownToNewYear(countDown)
+
 
 function updateTime() {
     const now = new Date();

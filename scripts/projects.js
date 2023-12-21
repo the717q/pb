@@ -1,8 +1,12 @@
 import {apiData} from '../data/apiData.js'
+import countdownToNewYear from '../AsideComponents/newYearfunction.js'
 
 const projects = document.querySelector('.section-projects')
 const timer = document.getElementById('timer')
 const detailsSection = document.querySelector('.section-details')
+const countDown = document.getElementById('countdown')
+
+countdownToNewYear(countDown)
 
 function updateTime() {
     const now = new Date();

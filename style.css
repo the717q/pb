@@ -6,11 +6,43 @@ body {
   font-family: "Gentium Book Plus", serif;
 }
 
-
-body .article-container #timer, body .article-container {
-  display: block;
-  padding: 2rem 0rem;
+#timer {
+  left: 0; /* Move the header from left to right to appear on the page */
+  position: relative;
+  animation: slideIn 2s ease-in-out;
 }
+
+
+#countdown {
+  right: 0;  
+  position: relative;
+  animation: slideIn2 2s ease-in-out;
+}
+
+
+span {
+  text-decoration: underline;
+}
+
+@keyframes slideIn2 {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0%; /* Move the header from left to right to appear on the page */
+  }
+}
+
+
+@keyframes slideIn {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%; /* Move the header from left to right to appear on the page */
+  }
+}
+
 
 
 body article {
@@ -18,16 +50,26 @@ body article {
   padding: 5rem 0rem;
 }
 
+body > article > section.article-header1 {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 body article .h1-header {
   font-size: 3rem;
   margin-bottom: 2rem;
   cursor:default;
-  animation: fadeIn 3s;
+  animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+.section-details {
+  margin: 3rem 0;
 }
 
 
@@ -102,10 +144,6 @@ body .article-container .section-links .links {
   font-size: 1rem;
 }
 
-body > article > section.section-projects  {
-  margin: 50px;
-}
-
 a {
   color: rgb(105, 119, 140);
 }
@@ -128,6 +166,9 @@ body > article > section.section-about > section > footer {
   body {
     margin: 0 157px;
   }
+
+
+  
 }
 
 @media screen and (max-width: 675px) {
@@ -187,6 +228,7 @@ body > article > section.section-about > section > footer {
   /* Add shadows to create the "card" effect */
   display: flex;
   justify-content: center;
+  flex-basis: 33.33333%;
   align-items: center;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -204,4 +246,20 @@ body > article > section.section-about > section > footer {
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+
+.sandboxes-body {
+  margin: 0 220px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sandboxes-body {
+    margin: 0 157px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .sandboxes-body {
+    margin: 0 15px;
+  }
 }

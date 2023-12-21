@@ -1,8 +1,13 @@
 import { experiences } from '../data/JobExperiencesData.js'
+import countdownToNewYear from '../AsideComponents/newYearfunction.js'
 
 const timer = document.getElementById('timer')
 const detailsSection = document.querySelector('.section-details')
 const certificatesSection = document.querySelector('.section-certificates')
+const countDown = document.getElementById('countdown')
+
+countdownToNewYear(countDown)
+
 
 function updateTime() {
     const now = new Date();

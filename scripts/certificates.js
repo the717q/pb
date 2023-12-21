@@ -1,8 +1,12 @@
 import { certificates } from "../data/certificatesData.js";
+import countdownToNewYear from '../AsideComponents/newYearfunction.js'
 
 const certificatesSection = document.querySelector('.section-certificates')
 const detailsSection = document.querySelector('.section-details')
 const timer = document.getElementById('timer')
+const countDown = document.getElementById('countdown')
+
+countdownToNewYear(countDown)
 
 
 function updateTime() {
