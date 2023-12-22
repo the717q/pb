@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;1,700&family=Inter:wght@300&display=swap");
+
+
+body {
+  padding: 0 16px;
+  margin: 0 330px;
+  font-family: "Gentium Book Plus", serif;
+}
+
+#timer {
+  left: 0; /* Move the header from left to right to appear on the page */
+  position: relative;
+  animation: slideIn 2s ease-in-out;
+}
+
+body > article > section.article-header h2{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+
+
+#countdown {
+  right: 0;  
+  position: relative;
+  animation: slideIn2 2s ease-in-out;
+}
+
+
+span {
+  text-decoration: underline;
+}
+
+@keyframes slideIn2 {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0%; /* Move the header from left to right to appear on the page */
+  }
+}
+
+
+@keyframes slideIn {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%; /* Move the header from left to right to appear on the page */
+  }
+}
+
+
+
+body article {
+  display: block;
+  padding: 5rem 0rem;
+}
+
+body > article > section.article-header1 {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+body article .h1-header {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  cursor:default;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.section-details {
+  margin: 3rem 0;
+}
+
+
+
+body > article > section.article-header > div h2{
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+body > article > section.article-header > div h3{
+  font-size: 14px;
+}
+
+body article .navigation-bar {
+  text-align: right;
+  margin: 3rem 0rem;
+ }
+
+body > article > section.links > section.navigation-bar1 {
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+  margin: 1rem;
+}
+
+.navigation-bar1 {
+  margin: 10px 0px;
+}
+
+body > article > section.links > section.navigation-bar1 a { 
+  margin: 0.2rem
+}
+
+body > article > section.links > section.navigation-bar2 a { 
+  margin: 0.2rem
+}
+
+
+body > article > section.links > section.links-bar2 {
+  margin: 1rem;
+}
+
+body > article > section.links > section.links-bar2 a{
+  margin: 0.2rem;
+  font-size: 0.8rem;
+    box-shadow: inset 0 0 0 0 black;
+	padding: 0 .25rem;
+	margin: 0 3px;
+  transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 1.5;
+}
+
+
+body > article > section.links {
+  text-align: right;
+  margin: 4rem 0.2rem;
+}
+
+body article .navigation-bar a {
+ 	color: #18272F;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+body article .navigation-bar a {
+  box-shadow: inset 0 0 0 0 black;
+	padding: 0 .25rem;
+	margin: 0 3px;
+  transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+body article .navigation-bar a:hover {
+  background-color: red;
+  box-shadow: inset 200px 0 0 0 white;
+}
+
+body > article > section.navigation-bar > section.links-bar2 a {
+  font-weight: 500;
+}
+
+/* Presentational styles */
+
+body article .links-bar {
+  margin: 0.5rem;
+}
+
+
+body article .links-bar a:visited {
+  color: black;
+}
+
+body .article-container .section-links .links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+a {
+  color: rgb(105, 119, 140);
+}
+
+a:visited {
+  color: black;
+}
+
+body .article-container .section-about p {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+
+body > article > section.section-about > section > footer {
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 0 157px;
+  }
+
+
+  
+}
+
+@media screen and (max-width: 675px) {
+  body {
+    margin: 0 15px;
+  }
+
+  body > .article-container > .header-details {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body > .article-container > .header-details {
+    display: block;
+  }
+}
+
+
+.article-container .section-projects a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sandboxes-container {
+  height: 50vh;
+  color:black;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+ .img {
+  max-height: 30px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  display: flex;
+  justify-content: center;
+  flex-basis: 33.33333%;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  min-height: 180px;
+  min-width: 270px;
+  text-align: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.sandboxes-body {
+  margin: 0 220px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.style {
+  margin: 1rem;
+  width: 50%;
+  padding: 2%;
+  background-color: hsla(228, 8%, 15%, 1);
+  border-radius: 2%;
+  transition: width 300ms ease-in;
+  text-align: center;
+}
+
+.style:hover {
+  width: 20%;
+}
+
+.style .button {
+  text-decoration: none;
+  color: white;
+}
+
+body > article > section.main > .style > a {
+  color: white;
+  display: block;
+  width: 100%;
+}
+
+body > article > section.main > .style > details {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .sandboxes-body {
+    margin: 0 157px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .sandboxes-body {
+    margin: 0 15px;
+  }
+
+  body > article > section.navigation-bar > section.navigation-bar1.navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0px;
+  }
+
+  body > article > section.navigation-bar > section.links-bar2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0px;
+  }
+
+    body > article > section.navigation-bar > section.navigation-bar1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0px;
+  }
+  
+.style:hover {
+  width: 50%;
+}
+
+
+  body > article > section.navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "personal-website",
+  "homepage": "https://github.com/the717q/pb",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "source": "./pages/blog.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": []
+}
