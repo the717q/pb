@@ -1,0 +1,88 @@
+export const certificates = [{
+    name: 'Networking Devices and Initial Configuration',
+    type: 'cisco',
+    dateOfCompletion: '16/08/2023',
+    img: '../assets/cisco.png',
+    link: 'https://www.credly.com/badges/61076127-c99d-41dc-9fee-cdbe73e7bac3/public_url',
+},{
+    name: 'Networking Basics',
+    type: 'cisco',
+    dateOfCompletion: '15/07/2023',
+    img: '../assets/cisco.png',
+    link: 'https://www.credly.com/badges/ded5a9c3-1219-4a4d-ba55-866e1bc85946/public_url',
+},
+{
+    name: 'Introduction to IT',
+    type: 'codecademy',
+    dateOfCompletion: '24/12/2022',
+    img: '../assets/code-cademy.png',
+    link: 'https://www.codecademy.com/profiles/andresilv.717/certificates/f8fcb12eaa0c4dddaa2ebc8cfb95b8e7',
+},{
+    name: 'Front-end development',
+    type: 'brainnest',
+    dateOfCompletion: '18/05/2022',
+    img: '../assets/code-cademy.png',
+    link: 'https://1drv.ms/b/s!AutoKmq85tTggVXnz3dQa12Afl1u?e=zlbmXa',
+},
+{
+    name: 'Learn JavaScript Course',
+    type: 'codecademy',
+    dateOfCompletion: '19/12/2022',
+    img: '../assets/code-cademy.png',
+    link: 'https://www.codecademy.com/profiles/andresilv.717/certificates/705dcb15de0da4dd9d9fc4f3274b430e',
+},{
+    name: 'Front-end Development',
+    type: 'EDIT - Disruptive Digital Education',
+    dateOfCompletion: '18/05/2022',
+    img: '../assets/edit.png',
+    link: 'https://1drv.ms/b/s!AutoKmq85tTggVTIwQdG3DMfe99b?e=Uz51Il',
+},{
+    name: 'Learn CSS Course',
+    type: 'codecademy',
+    dateOfCompletion: '05/05/2022',
+    img: '../assets/code-cademy.png',
+    link: 'https://www.codecademy.com/profiles/andresilv.717/certificates/9a5bb1fc45b4281af1fffec93b0aaf05',
+},{
+    name: 'Learn HTML Course',
+    type: 'codecademy',
+    dateOfCompletion: '05/05/2022',
+    img: '../assets/code-cademy.png',
+    link: 'https://www.codecademy.com/profiles/andresilv.717/certificates/9a5bb1fc45b4281af1fffec93b0aaf05',
+},{
+    name: 'Learn Javascript Course',
+    type: 'codecademy',
+    dateOfCompletion: '14/09/2022',
+    img: '../assets/code-cademy.png',
+    link: 'https://www.codecademy.com/profiles/andresilv.717/certificates/705dcb15de0da4dd9d9fc4f3274b430e',
+},{
+    name: 'Learn Responsive Design Course',
+    type: 'learnjavascript.online',
+    dateOfCompletion: '22/02/2022',
+    img: '../assets/code-cademy.png',
+    link: 'https://www.codecademy.com/profiles/andresilv.717/certificates/9a5bb1fc45b4281af1fffec93b0aaf05',
+},{
+    name: 'JavaScript Code Challenges',
+    type: 'linkedin',
+    dateOfCompletion: '18/09/2022',
+    img: '../assets/linkedin.png',
+    link: 'https://1drv.ms/b/s!AutoKmq85tTggVFkcaa3pTZQF4pA?e=IKvp0n',
+},{
+    name: 'Programming Foundations: APIs and Web Services',
+    type: 'linkedin',
+    dateOfCompletion: '22/02/2022',
+    img: '../assets/linkedin.png',
+    link: '',
+},{
+    name: 'Programming Foundations: Data Structures',
+    type: 'linkedin',
+    dateOfCompletion: '19/09/2022',
+    img: '../assets/linkedin.png',
+    link: 'https://1drv.ms/b/s!AutoKmq85tTggVPLfpBx_Mxt-TdU?e=dQGpiO',
+},{
+    name: 'Practice: JavaScript Loops and Conditionals',
+    type: 'linkedin',
+    dateOfCompletion: '22/09/2022',
+    img: '../assets/linkedin.png',
+    link: 'https://1drv.ms/b/s!AutoKmq85tTggVLUyGuW-bAYCadP?e=8nJUgo',
+}
+]
