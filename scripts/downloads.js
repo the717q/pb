@@ -10,7 +10,7 @@ countdownToNewYear(countDown);
 
 function updateTime() {
     const now = new Date();
-    const day = now.getUTCDate()
+    const day = now.getUTCDate();
     const year = now.getFullYear();
     const month = now.getUTCMonth() + 1
     const hours = now.getHours();
