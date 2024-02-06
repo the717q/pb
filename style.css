@@ -26,6 +26,7 @@ footer {
 }
 
 #timer {
+  font-size: 1rem;
   position: relative;
   animation: slideIn 2s ease-in-out;
 }
@@ -33,9 +34,10 @@ footer {
 #countdown {
   position: relative;
   animation: slideIn2 3s ease-in-out;
+  font-size: 1rem;
 }
 
-body > article > section.article-header h2 {
+body > main > section.main-header h2 {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.8rem;
@@ -46,7 +48,7 @@ span {
   text-decoration: underline;
 }
 
-body article {
+body main {
   position: relative;
   animation: slideIn 1s ease-in-out;
 
@@ -70,24 +72,24 @@ body article {
   }
 }
 
-body > article > section.article-header1 {
+body > main > section.main-header1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-body article .h1-header {
+body main .h1-header {
   font-size: 3rem;
   margin: 0;
   cursor: default;
   animation: fadeIn 5s;
 }
 
-body > article > section.article-header {
+body > main > section.main-header {
   margin: 4rem 0rem;
 }
 
-body article h2 {
+body main h2 {
   margin-top: 0;
 }
 
@@ -104,20 +106,20 @@ body article h2 {
   margin: 3rem 0;
 }
 
-body > article > section.article-header > div h2 {
+body > main > section.main-header > div h2 {
   font-size: 18px;
   text-decoration: underline;
 }
 
-body > article > section.article-header > div h3 {
+body > main > section.main-header > div h3 {
   font-size: 14px;
 }
 
-body article .navigation-bar {
+body main .navigation-bar {
    margin: 4rem 0rem;
 }
 
-body article .navigation-bar  ul {
+body main .navigation-bar  ul {
   display:flex;
   padding:0;
   align-items:center;
@@ -126,12 +128,12 @@ body article .navigation-bar  ul {
 }
 
 
-body article .navigation-bar  ul li {
+body main .navigation-bar  ul li {
   list-style: none;
 }
 
 
-body > article > section.links > section.links-bar2 a {
+body > main > section.links > section.links-bar2 a {
   margin: 0.2rem;
   font-size: 0.8rem;
   box-shadow: inset 0 0 0 0 black;
@@ -144,7 +146,7 @@ body > article > section.links > section.links-bar2 a {
 }
 
 
-body > article > section.links > section.navigation-bar1 {
+body > main > section.links > section.navigation-bar1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -171,30 +173,30 @@ body > article > section.links > section.navigation-bar1 {
   margin: 10px 0px;
 }
 
-body > article > section.navigation-bar > section.links-bar2 ul {
+body > main > section.navigation-bar > section.links-bar2 ul {
   text-decoration: un;
   justify-content: flex-start;
 }
 
 
-body > article > section.navigation-bar > section.links-bar2 ul li a {
+body > main > section.navigation-bar > section.links-bar2 ul li a {
   font-size: 0.9rem;
 }
 
 
-body > article > section.links > section.navigation-bar1 a {
+body > main > section.links > section.navigation-bar1 a {
   margin: 0.2rem;
 }
 
-body > article > section.links > section.navigation-bar2 a {
+body > main > section.links > section.navigation-bar2 a {
   margin: 0.2rem;
 }
 
-body > article > section.links > section.links-bar2 {
+body > main > section.links > section.links-bar2 {
   margin: 1rem;
 }
 
-body > article > section.links > section.links-bar2 a {
+body > main > section.links > section.links-bar2 a {
   margin: 0.2rem;
   font-size: 0.8rem;
   box-shadow: inset 0 0 0 0 black;
@@ -206,18 +208,18 @@ body > article > section.links > section.links-bar2 a {
   line-height: 1.5;
 }
 
-body > article > section.links {
+body > main > section.links {
   text-align: right;
   margin: 4rem 0.2rem;
 }
 
-body article .navigation-bar a {
+body main .navigation-bar a {
   color: #18272f;
   position: relative;
   text-decoration: none;
 }
 
-body article .navigation-bar a {
+body main .navigation-bar a {
   box-shadow: inset 0 0 0 0 black;
   padding: 0 0.25rem;
   margin: 0 3px;
@@ -227,26 +229,26 @@ body article .navigation-bar a {
   text-decoration: none;
 }
 
-body article .navigation-bar a:hover {
+body main .navigation-bar a:hover {
   background-color: red;
   box-shadow: inset 200px 0 0 0 white;
 }
 
-body > article > section.navigation-bar > section.links-bar2 a {
+body > main > section.navigation-bar > section.links-bar2 a {
   font-weight: 500;
 }
 
 /* Presentational styles */
 
-body article .links-bar {
+body main .links-bar {
   margin: 0.5rem;
 }
 
-body article .links-bar a:visited {
+body main .links-bar a:visited {
   color: black;
 }
 
-body .article-container .section-links .links {
+body main .section-links .links {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -263,12 +265,12 @@ a:visited {
   color: black;
 }
 
-body .article-container .section-about p {
+body main .section-about p {
   margin: 1rem 0;
   font-size: 1rem;
 }
 
-body > article > section.section-about > section > footer {
+body > main > section.section-about > section > footer {
   margin: 2rem 0;
 }
 
@@ -283,18 +285,18 @@ body > article > section.section-about > section > footer {
     margin: 0 15px;
   }
 
-  body > .article-container > .header-details {
+  body > main > .header-details {
     display: block;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body > .article-container > .header-details {
+  body > main > .header-details {
     display: block;
   }
 }
 
-.article-container .section-projects a {
+main .section-projects a {
   text-decoration: none;
   color: black;
 }
@@ -385,13 +387,13 @@ body > article > section.section-about > section > footer {
   color: white;
 }
 
-body > article > section.main > .style > a {
+body > main > section.main > .style > a {
   color: white;
   display: block;
   width: 100%;
 }
 
-body > article > section.main > .style > details {
+body > main > section.main > .style > details {
   color: white;
   display: flex;
   justify-content: center;
@@ -406,7 +408,7 @@ body > article > section.main > .style > details {
 }
 
 @media screen and (max-width: 675px) {
-  body > article > section.navigation-bar > a::after {
+  body > main > section.navigation-bar > a::after {
     content: " >";
     color: red;
   }
@@ -416,7 +418,7 @@ body > article > section.main > .style > details {
   }
 
   body
-    > article
+    > main
     > section.navigation-bar
     > section.navigation-bar1.navigation-bar {
     display: flex;
@@ -426,7 +428,7 @@ body > article > section.main > .style > details {
     margin: 10px 0px;
   }
 
-  body > article > section.navigation-bar > section.links-bar2 {
+  body > main > section.navigation-bar > section.links-bar2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -434,7 +436,7 @@ body > article > section.main > .style > details {
     margin: 10px 0px;
   }
 
-  body > article > section.navigation-bar > section.navigation-bar1 {
+  body > main > section.navigation-bar > section.navigation-bar1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -446,7 +448,7 @@ body > article > section.main > .style > details {
     width: 50%;
   }
 
-body article .navigation-bar  ul {
+body main .navigation-bar  ul {
   display:flex;
   flex-direction: column;
   padding:0;
@@ -455,3 +457,41 @@ body article .navigation-bar  ul {
   flex-wrap: wrap;
 }
 }
+
+
+/* FORM */
+
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }

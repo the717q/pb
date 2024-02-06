@@ -1,5 +1,15 @@
 export const experiences = [
     {
+        CompanyName: 'Altice Portugal',
+        Role: 'HelpDesk Technician',
+        Date: {
+            Beggining: 'February 2024'
+        },
+        Description: [
+            ['ServiceNow', ' Microsoft Office', ' Technical Support', ' Virtual Private Network', ' Actice Directory', ' Microsoft Windows', ' Remote Access', ' Virtual Machines']
+        ]
+    },
+    {
         CompanyName: 'Grupo8',
         Role: 'Receptionist/Maintenance, Security',
         Date: {

@@ -17,6 +17,7 @@ const filterExperiences = function(data, name) {
     return data.filter((certificate) => certificate.CompanyName === name)
 };
 
+const alticeExperience = filterExperiences(experiences, 'Altice Portugal')
 const grupo8Experience = filterExperiences(experiences, 'Grupo8');
 const BrainnestExperience = filterExperiences(experiences, 'Brainnest');
 const HoteisRealExperience = filterExperiences(experiences, 'Hoteis Real Group');
@@ -27,13 +28,13 @@ const createElements = function(data) {
         return (`<div class="experience-details"><h2>Company: <u>${experiences.CompanyName}</u></h2>
                     <p class="paragraph">Type: <b>${experiences.Role[0].toUpperCase() + experiences.Role.slice(1)}</b></p>
                     <p class="paragraph">Starting Date: <b>${experiences.Date.Beggining}</b></p>
-                    <p class="paragraph">Date of Completion: <b>${experiences.Date.End}</b></p>
+                    <p class="paragraph">Date of Completion: <b>${experiences.Date.End ? experiences.Date.End : 'Current'}</b></p>
                     <p>- ${experiences.Description.map((element) => element).join('<br>-')}</p>
                     </div><hr>`)
     }
 )};
 
-
+certificatesSection.insertAdjacentHTML('beforeend', createElements(alticeExperience).join(''));
 certificatesSection.insertAdjacentHTML('beforeend', createElements(grupo8Experience).join(''));
 certificatesSection.insertAdjacentHTML('beforeend', createElements(BrainnestExperience).join(''));
 certificatesSection.insertAdjacentHTML('beforeend', createElements(HoteisRealExperience).join(''))  ;
