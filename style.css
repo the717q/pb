@@ -35,6 +35,7 @@ footer {
   position: relative;
   animation: slideIn2 3s ease-in-out;
   font-size: 1rem;
+  
 }
 
 body > main > section.main-header h2 {
@@ -113,10 +114,11 @@ body > main > section.main-header > div h2 {
 
 body > main > section.main-header > div h3 {
   font-size: 14px;
-}
+}   
 
-body main .navigation-bar {
-   margin: 4rem 0rem;
+
+body > main > section.section-projects {
+  
 }
 
 body main .navigation-bar  ul {
@@ -229,6 +231,7 @@ body main .navigation-bar a {
   text-decoration: none;
 }
 
+
 body main .navigation-bar a:hover {
   background-color: red;
   box-shadow: inset 200px 0 0 0 white;
@@ -285,9 +288,18 @@ body > main > section.section-about > section > footer {
     margin: 0 15px;
   }
 
+  body main .navigation-bar a::after {
+    content: ' >';
+    color:darkred;
+  }
+
   body > main > .header-details {
     display: block;
   }
+}
+
+body > main > section.navigation-bar {
+  margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 768px) {
