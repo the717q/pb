@@ -6,7 +6,7 @@ export const experiences = [
             Beggining: 'February 2024'
         },
         Description: [
-            ['ServiceNow', ' Microsoft Office', ' Technical Support', ' Virtual Private Network', ' Actice Directory', ' Microsoft Windows', ' Remote Access', ' Virtual Machines']
+            ['ServiceNow', ' Microsoft Office', ' Technical Support', ' Virtual Private Networkn', ' Actice Directory', ' Microsoft Windows', ' Remote Access', ' Virtual Machines']
         ]
     },
     {
