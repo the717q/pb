@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;1,700&family=Inter:wght@300&display=swap");
 
 body {
-  padding: 0 16px;
-  margin: 0 330px;
   font-family: "Gentium Book Plus", serif;
+  margin: 32px;
+}
+
+body > main > section.section-certificates {
+
 }
 
 header {
@@ -277,15 +280,10 @@ body > main > section.section-about > section > footer {
   margin: 2rem 0;
 }
 
-@media screen and (max-width: 1024px) {
-  body {
-    margin: 0 157px;
-  }
-}
 
 @media screen and (max-width: 675px) {
   body {
-    margin: 0 15px;
+    margin: 0 16px;
   }
 
   body main .navigation-bar a::after {
