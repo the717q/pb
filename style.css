@@ -87,6 +87,7 @@ body main .h1-header {
   margin: 0;
   cursor: default;
   animation: fadeIn 5s;
+  color: #000080;
 }
 
 body > main > section.main-header {
@@ -264,7 +265,7 @@ body main .section-links .links {
 }
 
 a {
-  color: rgb(105, 119, 140);
+  color: #000080;
 }
 
 a:visited {
@@ -274,6 +275,10 @@ a:visited {
 body main .section-about p {
   margin: 1rem 0;
   font-size: 1rem;
+}
+
+body > main > section.section-details > h3 {
+  color: #000080;
 }
 
 body > main > section.section-about > section > footer {
@@ -386,6 +391,7 @@ main .section-projects a {
   border-radius: 2%;
   transition: width 300ms ease-in;
   text-align: center;
+  background-color: #000080;
 }
 
 .style:hover {
