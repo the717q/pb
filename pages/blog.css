@@ -74,3 +74,9 @@ body > main > section.section-blogs > section.blogs-menu > a:hover {
         margin-right: 500px;
     }
   }
+
+  h3 {
+    font-size: 12px; 
+    color: #000080;
+    margin-bottom: 50px;
+  }

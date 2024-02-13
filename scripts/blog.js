@@ -1,15 +1,29 @@
 import {blogs} from "../data/blogsData.js";
+import countdownToNewYear from '../AsideComponents/newYearfunction.js';
+import updateTime from '../AsideComponents/updateTime.js';
 
-const blogsSection = document.querySelector('.section-blog')
-const blogsmenu = document.querySelector('.blogs-menu')
+const blogsSection = document.querySelector('.section-blog');
+const blogsmenu = document.querySelector('.blogs-menu');
+const countTimer = document.getElementById('timer');
+const countDown = document.getElementById('countdown');
+
+countdownToNewYear(countDown);
+
+updateTime(countTimer);
+    setInterval(function () {
+      updateTime(countTimer);
+    }, 1000);
+
+    console.log(blogs[0].content.slice(0, 10))
 
 const createElements = function(data) {
+    
     return data.map((blogs) => {
-        console.log(blogs.content.slice(0, 55))
-        return (`<div class="certification-details"><h1>Name: ${blogs.name}</h1>
-                    <h2>${blogs.content.slice(0, 55)}</h2>
-                    <p class="paragraph">${blogs.content}</p>
-                    <p>Date of Completion: ${blogs.dataofCreation}</p>
+        return (`<div class="certification-details"id=${blogs.name} ><h1>Name: ${blogs.name}</h1>
+                    <h2 style="text-decoration: underline">${blogs.header}</h2>
+                    <p>Date of Creation: ${blogs.dataofCreation}</p>
+                    <h3>Keywords: Javascript, web development, Digital</h3>
+                    <a href="../blogs/javascriptBlog.html" target="_blank">Read More</a>
                 </div><hr>`)
     }
 )};
@@ -29,11 +43,7 @@ const menus = document.getElementsByClassName('blog-items')
 
 const elementsArray = Array.from(menus);
 
-console.log(elementsArray)
-
 elementsArray.map((items) => {
-    console.log(items.innerHTML)
-    console.log(items)
     if(items.innerHTML === 'Javascript') {
         items.style.color = '#F2AF13'
     }
