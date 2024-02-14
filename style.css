@@ -326,6 +326,7 @@ main .section-projects a {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  flex: 33%;
 }
 
 .sandboxes-container {
@@ -333,43 +334,12 @@ main .section-projects a {
   color: black;
 }
 
-.cards {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 50px;
-}
 
 .img {
   max-height: 30px;
 }
 
-.card {
-  /* Add shadows to create the "card" effect */
-  display: flex;
-  justify-content: center;
-  flex-basis: 33.33333%;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  min-height: 180px;
-  min-width: 270px;
-  text-align: center;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
 /* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
-
 .sandboxes-body {
   margin: 0 220px;
 }

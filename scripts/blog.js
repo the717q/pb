@@ -23,7 +23,7 @@ const createElements = function(data) {
                     <h2 style="text-decoration: underline">${blogs.header}</h2>
                     <p>Date of Creation: ${blogs.dataofCreation}</p>
                     <h3>Keywords: Javascript, web development, Digital</h3>
-                    <a href="../blogs/javascriptBlog.html" target="_blank">Read More</a>
+                    <a href="../blogs/javascriptBlog.html">Read More</a>
                 </div><hr>`)
     }
 )};

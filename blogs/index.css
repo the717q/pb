@@ -13,8 +13,65 @@ body > main > section.section-about {
     padding: 32px;
     border-radius: 5px;
     color: white;
+    background-color: #000080;;
 }
 
 body > main > section.section-about a {
     color: white;
+}
+
+@media screen and (max-width: 675px) {
+    body > main > section.section-about {
+      margin: 0;
+    }
+}
+
+
+body > main > section.section-fiddles {
+    margin: 20px 0px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.card {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 30%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  }
+
+  
+  /* On mouse-over, add a deeper shadow */
+
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  @media screen and (max-width: 768px) {
+    body > main > section.section-fiddles {    
+        display: block;    
+        width: 100%;
+    }
+    body > main > section.section-fiddles > .card {
+        max-width: 100%;
+
+    }
+  }
+ 
+
+  body > main > section.section-blogs {
+    margin: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #000080;
 }
