@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 body {
     font-family: "Inter", sans-serif;
@@ -6,14 +8,34 @@ body {
     "slnt" 0;
 }
 
+body > main > div {
+    margin: 48px auto 8px;
+}
+
+body > main > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+body > main > div.blogs > a > h3 {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 0;
+    color: white;
+    
+}
+
+
 
 body > main > section.section-about {
     margin: 16px calc(100vh / 4);
-    background-color: #000080;
     padding: 32px;
     border-radius: 5px;
-    color: white;
-    background-color: #000080;;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 body > main > section.section-about a {
@@ -66,12 +88,72 @@ body > main > section.section-fiddles {
         max-width: 100%;
 
     }
+
+    body > main > div > div.css-ishr1z {
+        flex-direction: column;
+    }
+
+    body > main > div > div.elements {
+        flex-direction: column;
+    }
+
+    body > main > div > div.elements > a {
+        width: 80%;
+        margin: 10px;
+    } 
   }
  
 
-  body > main > section.section-blogs {
-    margin: 4rem 2rem;
+  body > main > div {
+    background-color: black;
+    padding: 20px;
+    margin: 100px 0px;
+  }
+
+
+  body > main > div > div {
+    margin: 48px 0px;
     display: flex;
     align-items: center;
-    background-color: #000080;
+    justify-content: space-around;
+  }
+
+  body > main > div > div > h2 {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  body > main > div > div > a {
+    text-decoration: none;
+    transition: all 0.7s ease 0s;
+    color: inherit;
+    border-bottom: 1px solid;
+}
+
+body > main > div > div.elements > a {
+    gap: 5px;
+    position: relative;
+    background: #0D0F11;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transform: scale(1);
+    transition: transform 0.1s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: yellow;
+}
+
+body > main > div > div.elements > a > div {
+    text-align: center;
+}
+
+body > main > div > div.elements > a > h3 {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 0;
+    color:white;
 }
