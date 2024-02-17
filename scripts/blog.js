@@ -1,11 +1,17 @@
 import {blogs} from "../data/blogsData.js";
 import countdownToNewYear from '../AsideComponents/newYearfunction.js';
 import updateTime from '../AsideComponents/updateTime.js';
+const detailsSection = document.querySelector(".section-details");
 
 const blogsSection = document.querySelector('.section-blog');
 const blogsmenu = document.querySelector('.blogs-menu');
 const countTimer = document.getElementById('timer');
 const countDown = document.getElementById('countdown');
+
+
+const date = `<h3>Local path and Website Details</h3><p>Website Hosted at ${window.location.hostname}<br>Local Path: ${window.location.href}</p>`
+
+detailsSection.insertAdjacentHTML("beforeend", date)
 
 countdownToNewYear(countDown);
 
