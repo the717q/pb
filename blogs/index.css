@@ -41,15 +41,16 @@ body > main > section.section-about {
 body > main > section.section-about a {
     color: white;
 }
+ 
 
-@media screen and (max-width: 675px) {
-    body > main > section.section-about {
-      margin: 0;
-    }
+body > section > h3 {
+    color: #000080;
+
 }
 
 
 body > main > section.section-fiddles {
+    justify-content: space-between;
     margin: 20px 0px;
     display: flex;
     gap: 10px;
@@ -80,10 +81,15 @@ body > main > section.section-fiddles {
   }
 
   @media screen and (max-width: 768px) {
-    body > main > section.section-fiddles {    
+
+
+    body > main > section.section-about {
         display: block;    
-        width: 100%;
+        width: 100%; 
+        margin: 0;
+        padding: 0;
     }
+
     body > main > section.section-fiddles > .card {
         max-width: 100%;
 
