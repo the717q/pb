@@ -6,7 +6,10 @@ export const experiences = [
             Beggining: 'February 2024'
         },
         Description: [
-            ['ServiceNow ', ' Microsoft Office', ' Technical Support', ' Virtual Private Networkn', ' Actice Directory', ' Microsoft Windows', ' Remote Access', ' Virtual Machines']
+            ' Gained proficiency in Active Directory, managing user accounts and permissions efficiently.',
+            ' Utilized ServiceNow for client support, streamlining issue resolution processes.', 
+            ' Utilized Office 365 and Microsoft Intune for effective device and application management', 
+            ' Leveraged Microsoft Entra for robust identity and access management.'
         ]
     },
     {
