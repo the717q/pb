@@ -72,11 +72,8 @@ body > main > section.section-fiddles {
   }
 
   
-  /* On mouse-over, add a deeper shadow */
 
-  
-  /* Add some padding inside the card container */
-  .container {
+    .container {
     padding: 2px 16px;
   }
 
@@ -108,12 +105,35 @@ body > main > section.section-fiddles {
         margin: 10px;
     } 
   }
+
+  .slow-paragraph {
+    opacity: 0;
+    animation: fadeIn 5s ease forwards;
+  }
+
+  body > main > section.section-about > p > b {
+    color: #000080;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  body main .section-about p {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  
  
 
   body > main > div {
     background-color: black;
     padding: 20px;
-    margin: 100px 0px;
   }
 
 

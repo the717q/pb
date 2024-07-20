@@ -89,7 +89,7 @@ body > section > h3 {
     }
   }
 
-  #Javascript > h3 {
+ .certification-details h3 {
     font-size: 12px; 
     color: #000080;
     margin-bottom: 50px;

@@ -28,7 +28,7 @@ const createElements = function(data) {
         return (`<div class="experience-details"><h2>Company: <u>${experiences.CompanyName}</u></h2>
                     <p class="paragraph">Type: <b>${experiences.Role[0].toUpperCase() + experiences.Role.slice(1)}</b></p>
                     <p class="paragraph">Starting Date: <b>${experiences.Date.Beggining}</b></p>
-                    <p class="paragraph">Date of Completion: <b>${experiences.Date.End ? experiences.Date.End : 'Current'}</b></p>
+                    <p class="paragraph">Ending Date: <b>${experiences.Date.End ? experiences.Date.End : 'Current'}</b></p>
                     <p>- ${experiences.Description.map((element) => element).join('<br>-')}</p>
                     </div><hr>`)
     }
