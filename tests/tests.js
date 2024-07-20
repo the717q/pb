@@ -1,4 +1,4 @@
-const { MongoClient } = require('mongodb')
+/* const { MongoClient } = require('mongodb')
 
 let dbConnection
 
@@ -35,3 +35,7 @@ const loadingspinner = document.getElementById('loading-spinner')
         
         document.onload(onDOMContentLoaded());
         
+
+ */
+
+global.answer = 42
