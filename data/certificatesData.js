@@ -1,4 +1,31 @@
-export const certificates = [{
+export const certificates = [
+    {
+    name: 'Cybersecurity Solutions and Microsoft Defender',
+    type: 'Microsoft',
+    dateOfCompletion: '21/12/2024',
+    img: '../assets/microsoft.png',
+    link: 'https://coursera.org/share/090f8dd067f77ceb32b350a529387119',
+    },{
+    name: 'Administer Active Directory Domain Services',
+    type: 'Microsoft',
+    dateOfCompletion: '30/10/2024',
+    img: '../assets/microsoft.png',
+    link: 'https://learn.microsoft.com/pt-pt/credentials/applied-skills/administer-active-directory-domain-services/',
+},{
+    name: 'Introduction to Microsoft Azure Cloud Services',
+    type: 'Coursera',
+    dateOfCompletion: '12/11/2023',
+    img: '../assets/coursera.webp',
+    link: 'https://coursera.org/share/af685c8e002a4cc4ea170d1b877ac296',
+},
+{
+    name: 'Cybersecurity Identity and Access Solutions using Azure AD',
+    type: 'Coursera',
+    dateOfCompletion: '12/11/2024',
+    img: '../assets/coursera.webp',
+    link: 'https://coursera.org/share/e08f7158096bfe0e53f2de4be67d76f1',
+},
+{
     name: 'Networking Devices and Initial Configuration',
     type: 'cisco',
     dateOfCompletion: '16/08/2023',

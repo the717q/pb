@@ -17,11 +17,16 @@ const filterCertificates = function(data, type) {
     return data.filter((certificate) => certificate.type === type)
 };
 
+
+const microsoftCertificates = filterCertificates(certificates, 'Microsoft');
+const courseraCertificates = filterCertificates(certificates, 'Coursera')
 const ciscoCertificates = filterCertificates(certificates, 'cisco');
 const linkedinCertificates = filterCertificates(certificates, 'linkedin');
 const codecademyCertificates = filterCertificates(certificates, 'codecademy');
 const EditCertificates = filterCertificates(certificates, 'EDIT - Disruptive Digital Education');
 const brainnestCertificates = filterCertificates(certificates, 'brainnest');
+
+console.log(microsoftCertificates)
 
 const createElements = function(data) {
     return data.map((certificates) => {
@@ -33,6 +38,10 @@ const createElements = function(data) {
     }
 )};
 
+console.log(microsoftCertificates)
+
+certificatesSection.insertAdjacentHTML('beforeend', createElements(microsoftCertificates).join(''));
+certificatesSection.insertAdjacentHTML('beforeend', createElements(courseraCertificates).join(''));
 certificatesSection.insertAdjacentHTML('beforeend', createElements(ciscoCertificates).join(''));
 certificatesSection.insertAdjacentHTML('beforeend', createElements(linkedinCertificates).join(''));
 certificatesSection.insertAdjacentHTML('beforeend', createElements(codecademyCertificates).join(''));

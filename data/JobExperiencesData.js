@@ -28,21 +28,6 @@ export const experiences = [
         ],
     },
     {
-        CompanyName: 'Brainnest',
-        Role:'Front-End Development',
-        Date: {
-            Beggining: 'November 2022',
-            End: 'February 2023',
-        },
-        Description: [
-            ' Successfully completed a rigorous 2-month trainee program in Front End Development.',
-            ' Demonstrated problem-solving aptitude by consistently delivering weekly projects assigned by our experienced tutor.            ',
-            ' Adhered to project schedules, presenting each assignment on time and within scope.            ',
-            ' Developed essential teamwork and communication skills while collaborating with peers on various projects.            ',
-            ' Proficiently worked with a versatile tech stack, including HTML, CSS, JavaScript, GIT, and React, gaining valuable hands-on experience in these essential web development technologies.'
-        ],
-    },
-    {
         CompanyName: 'Hoteis Real Group',
         Role:'Trainee IT Department',
         Date: {

@@ -398,6 +398,12 @@ body > main > section.main > .style > details {
   flex-direction: column;
 }
 
+body > main > section.main > .style > details > .downloads {
+  display:flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 1024px) {
   .sandboxes-body {
     margin: 0 157px;
